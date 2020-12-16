@@ -489,8 +489,8 @@ a
 // File contracts/SuperFly.sol
 
 
-pragma solidity ^0.6.12;
-contract SuperFly is Context, IERC20, Ownable {
+pragma solidity ^0.6.0;
+contract FLY2 is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
@@ -506,8 +506,8 @@ contract SuperFly is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = 'SuperFly';
-    string private _symbol = 'FLY';
+    string private _name = 'superFLY2';
+    string private _symbol = 'FLY2';
     uint8 private _decimals = 9;
 
     constructor () public {
